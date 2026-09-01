@@ -5,8 +5,8 @@ export const metadata: Metadata = {
   title: "ID-Ticket GWV Rechner",
   description: "Geldwerten Vorteil von Standby- und ID-Flugtickets für 2026 und 2027 berechnen.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "./favicon.svg",
+    shortcut: "./favicon.svg",
   },
 };
 

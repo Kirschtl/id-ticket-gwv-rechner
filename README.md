@@ -1,4 +1,29 @@
-# vinext-starter
+# ID-Ticket GWV Rechner
+
+Webapp zur unverbindlichen Berechnung des geldwerten Vorteils von ID-Flugtickets nach den Durchschnittswerten für 2026/2027.
+
+## Webapp öffnen
+
+- GitHub Pages: https://kirschtl.github.io/id-ticket-gwv-rechner/
+- ChatGPT Sites: https://id-ticket-gwv-rechner.tuijet.chatgpt.site
+
+## Funktionen
+
+- Flughafensuche nach IATA, ICAO, Ort und Flughafenname
+- direkte Flüge, Umsteigeverbindungen und Rückflüge
+- Standby/SA, eingeschränkt fest gebucht und uneingeschränkt
+- vollständiger Rechenweg einschließlich geschätzter Steuerbelastung
+
+## Lokal starten
+
+```bash
+npm ci
+npm run dev
+```
+
+---
+
+## Technische Grundlage
 
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.
 
